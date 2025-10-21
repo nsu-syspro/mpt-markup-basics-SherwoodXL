@@ -1,0 +1,8 @@
+digraph MegaCoolGraph {
+    rankdir=LR;
+    node [shape = doublecircle]; 3;
+    node [shape = circle];
+    1 -> 2 [label = "a, b"];
+    2 -> 2 [label = "c"];
+    2 -> 3 [label = "d"];
+}
